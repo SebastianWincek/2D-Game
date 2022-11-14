@@ -137,6 +137,8 @@ GameObject:
   - component: {fileID: 109664416}
   - component: {fileID: 109664415}
   - component: {fileID: 109664414}
+  - component: {fileID: 109664420}
+  - component: {fileID: 109664421}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -250,6 +252,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109664420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109664413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50328ee00e7960848a3e085c1991d94e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 109664413}
+--- !u!114 &109664421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109664413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6ec7b0012ceba4f8640bfa0f72e3d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Laser: {fileID: 2277178508711164087, guid: 79714fd54966129489acb5c9840784b6, type: 3}
+  shootingPoint: {fileID: 109664419}
+  projectileSpeed: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
